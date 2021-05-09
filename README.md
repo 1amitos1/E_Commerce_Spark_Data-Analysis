@@ -11,13 +11,13 @@ This data analysis project aims to preprocess the data using pyspark to find cri
 * [Reference](#Reference)
 
 
-## Introduction 
+### Introduction 
 ---
 This project is divided into 2 notebooks:
 - 1-RFM Analysis and Kmens 
 - 2-Visual business analysis
 
-### RFM Analysis
+#### RFM Analysis
 - Used to segregate the customers based on behaviors
  
 __RFM helps in segregating:__
@@ -27,12 +27,14 @@ __RFM helps in segregating:__
 
 __first step__
 - preprocess the data using pyspark and calculate RFM scores
-__second step__
--  try to segregate customers based on RFM analysis. First, we'll create clusters and see characterstics of each cluster
-__Third step__
--  Train a k-means model 
 
-#### Visual business analysis
+__second step__
+- try to segregate customers based on RFM analysis. First, we'll create clusters and see characterstics of each cluster
+
+__Third step__
+- Train a k-means model 
+
+##### Visual business analysis
 __We will look for trends in data such as:__
 - Revenue trends
 - Quantity Sold Trends
@@ -46,10 +48,12 @@ __We will look for trends in data such as:__
 - Regionwise Analysis
 
 
-### output 
+#### output 
 ---
 ![Regionwise_Analysis](https://user-images.githubusercontent.com/34807427/117584028-21882e80-b113-11eb-8fe3-85cfe7740100.png)
+
 ![revnue_by_month](https://user-images.githubusercontent.com/34807427/117584029-2351f200-b113-11eb-9781-2e181d7e4421.png)
+
 ![Trends](https://user-images.githubusercontent.com/34807427/117584030-23ea8880-b113-11eb-90d5-43387bf632c7.png)
 
 
